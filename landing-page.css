@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  border: grey solid 2px;
+  background-color: grey;
+  padding: 15px;
+  font-size: 30px;
+}
+
+span {
+  display: block;
+}
+
+header {
+  padding: 260px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+#get-started {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #e5e5e5;
+  padding: 250px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  border: grey 2px solid;
+  padding: 85px;
+}
+
+.why-section {
+  padding: 300px;
+}
+
+.footer {
+  border: grey 2px solid;
+  background-color: grey;
+}
